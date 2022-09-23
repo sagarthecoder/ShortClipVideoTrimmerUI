@@ -30,9 +30,9 @@
 /* Begin PBXFileReference section */
 		09AEDBCCC225A51C11A787B9 /* Pods_ShortClipVideoTrimmerUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortClipVideoTrimmerUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A7174E7C2734C6BACE58B95 /* Pods_ShortClipVideoTrimmerUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortClipVideoTrimmerUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F24EFAC0087F33B889211B2 /* ShortClipVideoTrimmerUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ShortClipVideoTrimmerUI.podspec; path = ../ShortClipVideoTrimmerUI.podspec; sourceTree = "<group>"; };
+		0F24EFAC0087F33B889211B2 /* ShortClipVideoTrimmerUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ShortClipVideoTrimmerUI.podspec; path = ../ShortClipVideoTrimmerUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		11A1E3A8630D329BFE0ADD6A /* Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig"; path = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		40F7F992786EE1E31287E41A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		40F7F992786EE1E31287E41A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5EF93C1F48EAD1FC876BB621 /* Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig"; path = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ShortClipVideoTrimmerUI_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortClipVideoTrimmerUI_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6D3F9C2DB80393F8CAA0016D /* Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig"; path = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A244BA835A136B47E703992E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A244BA835A136B47E703992E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CB85810098ABC324BFC466B1 /* Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				CB85810098ABC324BFC466B1 /* Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig */,
 				11A1E3A8630D329BFE0ADD6A /* Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -479,6 +479,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShortClipVideoTrimmerUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -494,6 +495,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ShortClipVideoTrimmerUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

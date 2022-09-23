@@ -1,0 +1,22 @@
+{
+  "name": "ShortClipVideoTrimmerUI",
+  "version": "0.1.0",
+  "summary": "A short description of ShortClipVideoTrimmerUI.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sagar Chandra Das/ShortClipVideoTrimmerUI",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sagar Chandra Das": "sagar@bitmorpher.com"
+  },
+  "source": {
+    "git": "https://github.com/Sagar Chandra Das/ShortClipVideoTrimmerUI.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ShortClipVideoTrimmerUI/Classes/**/*"
+}

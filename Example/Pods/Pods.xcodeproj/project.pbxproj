@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18A6FA681E7900120360DEE594F9A0BC /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C0E47A74C72D3A31FBA107435EBEC1 /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m */; };
+		1CC60FBE97CCD2DC56A2B2CDAF369E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2273E2C5F26AE0063388FECE090CED5B /* ShortClipVideoTrimmerUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D2974B78971084873459EAF59C066A /* ShortClipVideoTrimmerUI-dummy.m */; };
+		3A867EE7FC8725C504ECB66D30BCE6AE /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D112D11800F3A8F71E53EA56372DEB0 /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82B120A65BC3967D3C0EAC33E1DBBD52 /* ShortClipVideoTrimmerUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0E35AE5A6821D8696CCABE727CFAD8 /* ShortClipVideoTrimmerUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		893E6FBD5AC7DF922D72603A2C4566A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		994C86B8E18D1AC66644A53CAE1AE01F /* Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DF847DA03B1AE5969C9226CA582C8C /* Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDC2864D8CB4AD412204E548C47FDC5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F9F94CC01B30BEE33EC9E75DD3F31419 /* Pods-ShortClipVideoTrimmerUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3ED204DF4132252A4590D789326CE9 /* Pods-ShortClipVideoTrimmerUI_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		198F544F5C5C6E457F67F29E2FA89A20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A657F6B5ED25180A818C5706FF80F0B9;
+			remoteInfo = "Pods-ShortClipVideoTrimmerUI_Example";
+		};
+		7A08A0258E600AD7DD7295C740BE1FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBED2E76EA86B2C99A8771588DA94848;
+			remoteInfo = ShortClipVideoTrimmerUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02703947B43788190F594FA1A001A14D /* Pods-ShortClipVideoTrimmerUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortClipVideoTrimmerUI_Tests.modulemap"; sourceTree = "<group>"; };
+		05C0E47A74C72D3A31FBA107435EBEC1 /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortClipVideoTrimmerUI_Example-dummy.m"; sourceTree = "<group>"; };
+		078859DF81A95728535D484163D1B03C /* Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B260E22B3D813933F2E85E09751DE2C /* Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0D0E35AE5A6821D8696CCABE727CFAD8 /* ShortClipVideoTrimmerUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortClipVideoTrimmerUI-umbrella.h"; sourceTree = "<group>"; };
+		14D70A514F5428A6A3EA1C2C9ED6C977 /* Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		17C48BFF3CDB62E3484C838F112B4F13 /* Pods-ShortClipVideoTrimmerUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		27D2974B78971084873459EAF59C066A /* ShortClipVideoTrimmerUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShortClipVideoTrimmerUI-dummy.m"; sourceTree = "<group>"; };
+		290097CE7E96D00F11E8517E495E64DA /* Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BF12DBA270B69A27EA99A9DE5D71C44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3D112D11800F3A8F71E53EA56372DEB0 /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortClipVideoTrimmerUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		480D15FDFD719147BA7A282A544EEFEF /* Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76FE4EFADA268A94B4426419CF4EAB41 /* ShortClipVideoTrimmerUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortClipVideoTrimmerUI-prefix.pch"; sourceTree = "<group>"; };
+		791D2B6E8D8576F3553CB12AA8186C8C /* Pods-ShortClipVideoTrimmerUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortClipVideoTrimmerUI_Example.modulemap"; sourceTree = "<group>"; };
+		792C30ABB380D0C8D22535A2EEC1916F /* Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		8C6B58AE9BF65DB6EF4E17C498A0B5E4 /* Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		907F20F0CEDE89156BA90506F888F97C /* ShortClipVideoTrimmerUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ShortClipVideoTrimmerUI-Info.plist"; sourceTree = "<group>"; };
+		9C0C1014CC6020B68AB8F1FC1AD267C9 /* ShortClipVideoTrimmerUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ShortClipVideoTrimmerUI.modulemap; sourceTree = "<group>"; };
+		9CF6109BF95BDE1BB00C278A9961E3ED /* Pods_ShortClipVideoTrimmerUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortClipVideoTrimmerUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5E5C58E7508083A6C7380C125B45225 /* Pods-ShortClipVideoTrimmerUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortClipVideoTrimmerUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BD0D95264A31B9D9FF6C18EB3F9E4334 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C8962244C08708B6D84155F33D3F5E5B /* ShortClipVideoTrimmerUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShortClipVideoTrimmerUI.release.xcconfig; sourceTree = "<group>"; };
+		CF3ED204DF4132252A4590D789326CE9 /* Pods-ShortClipVideoTrimmerUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortClipVideoTrimmerUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		D4206E9A7AA55C1DC064D267A61DF3D7 /* Pods-ShortClipVideoTrimmerUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Example-Info.plist"; sourceTree = "<group>"; };
+		DE112A6D859A447966C90A5DE7A8CA9E /* ShortClipVideoTrimmerUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShortClipVideoTrimmerUI.debug.xcconfig; sourceTree = "<group>"; };
+		E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShortClipVideoTrimmerUI; path = ShortClipVideoTrimmerUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E297D5435B835EC8523ECE8FFC76D212 /* Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E49599A9D716B1B6A69B810CA758DBBB /* Pods-ShortClipVideoTrimmerUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShortClipVideoTrimmerUI_Tests"; path = Pods_ShortClipVideoTrimmerUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6DF847DA03B1AE5969C9226CA582C8C /* Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		FBFD80D1ED153811E222E3C401C0977E /* ShortClipVideoTrimmerUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShortClipVideoTrimmerUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35151947D066122DFE499FFD38C693F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC2864D8CB4AD412204E548C47FDC5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2DC1FA2AEAA611DEC58258FB8E504 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893E6FBD5AC7DF922D72603A2C4566A1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E275E13182CC9A3D7C6D907F18AFD9AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CC60FBE97CCD2DC56A2B2CDAF369E1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16F25CAFD522A9E131721ADA83425FAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF6109BF95BDE1BB00C278A9961E3ED /* Pods_ShortClipVideoTrimmerUI_Example.framework */,
+				E49599A9D716B1B6A69B810CA758DBBB /* Pods-ShortClipVideoTrimmerUI_Tests */,
+				E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BBA6BEF28DE4BB700F693CD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		41B99514B2E1DFED21006929170A354D /* ShortClipVideoTrimmerUI */ = {
+			isa = PBXGroup;
+			children = (
+				1BBA6BEF28DE4BB700F693CD /* Sources */,
+				C589941C02DEF2F69FE9E17C12352ED5 /* Pod */,
+				8E82EA92B8B7FBCCA43989DC506A4050 /* Support Files */,
+			);
+			name = ShortClipVideoTrimmerUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AD9E145391FE3B1B7A7AF70155A0CE9 /* Pods-ShortClipVideoTrimmerUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				791D2B6E8D8576F3553CB12AA8186C8C /* Pods-ShortClipVideoTrimmerUI_Example.modulemap */,
+				480D15FDFD719147BA7A282A544EEFEF /* Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.markdown */,
+				E297D5435B835EC8523ECE8FFC76D212 /* Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.plist */,
+				05C0E47A74C72D3A31FBA107435EBEC1 /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m */,
+				A5E5C58E7508083A6C7380C125B45225 /* Pods-ShortClipVideoTrimmerUI_Example-frameworks.sh */,
+				D4206E9A7AA55C1DC064D267A61DF3D7 /* Pods-ShortClipVideoTrimmerUI_Example-Info.plist */,
+				3D112D11800F3A8F71E53EA56372DEB0 /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h */,
+				14D70A514F5428A6A3EA1C2C9ED6C977 /* Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig */,
+				792C30ABB380D0C8D22535A2EEC1916F /* Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig */,
+			);
+			name = "Pods-ShortClipVideoTrimmerUI_Example";
+			path = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example";
+			sourceTree = "<group>";
+		};
+		8C856C9CC92485A7EB0BF80A96B2C396 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41B99514B2E1DFED21006929170A354D /* ShortClipVideoTrimmerUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8E82EA92B8B7FBCCA43989DC506A4050 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C0C1014CC6020B68AB8F1FC1AD267C9 /* ShortClipVideoTrimmerUI.modulemap */,
+				27D2974B78971084873459EAF59C066A /* ShortClipVideoTrimmerUI-dummy.m */,
+				907F20F0CEDE89156BA90506F888F97C /* ShortClipVideoTrimmerUI-Info.plist */,
+				76FE4EFADA268A94B4426419CF4EAB41 /* ShortClipVideoTrimmerUI-prefix.pch */,
+				0D0E35AE5A6821D8696CCABE727CFAD8 /* ShortClipVideoTrimmerUI-umbrella.h */,
+				DE112A6D859A447966C90A5DE7A8CA9E /* ShortClipVideoTrimmerUI.debug.xcconfig */,
+				C8962244C08708B6D84155F33D3F5E5B /* ShortClipVideoTrimmerUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ShortClipVideoTrimmerUI";
+			sourceTree = "<group>";
+		};
+		BD23FCE0254344BE8D988832906D22D6 /* Pods-ShortClipVideoTrimmerUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				02703947B43788190F594FA1A001A14D /* Pods-ShortClipVideoTrimmerUI_Tests.modulemap */,
+				290097CE7E96D00F11E8517E495E64DA /* Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.markdown */,
+				8C6B58AE9BF65DB6EF4E17C498A0B5E4 /* Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.plist */,
+				CF3ED204DF4132252A4590D789326CE9 /* Pods-ShortClipVideoTrimmerUI_Tests-dummy.m */,
+				17C48BFF3CDB62E3484C838F112B4F13 /* Pods-ShortClipVideoTrimmerUI_Tests-Info.plist */,
+				F6DF847DA03B1AE5969C9226CA582C8C /* Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h */,
+				078859DF81A95728535D484163D1B03C /* Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig */,
+				0B260E22B3D813933F2E85E09751DE2C /* Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-ShortClipVideoTrimmerUI_Tests";
+			path = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests";
+			sourceTree = "<group>";
+		};
+		BED876CEABA1BD2E3A630870C02736BB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9E145391FE3B1B7A7AF70155A0CE9 /* Pods-ShortClipVideoTrimmerUI_Example */,
+				BD23FCE0254344BE8D988832906D22D6 /* Pods-ShortClipVideoTrimmerUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C589941C02DEF2F69FE9E17C12352ED5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BD0D95264A31B9D9FF6C18EB3F9E4334 /* LICENSE */,
+				3BF12DBA270B69A27EA99A9DE5D71C44 /* README.md */,
+				FBFD80D1ED153811E222E3C401C0977E /* ShortClipVideoTrimmerUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8C856C9CC92485A7EB0BF80A96B2C396 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				16F25CAFD522A9E131721ADA83425FAA /* Products */,
+				BED876CEABA1BD2E3A630870C02736BB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		C0FB365D8AAC4665C673EFD8131E056D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A867EE7FC8725C504ECB66D30BCE6AE /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C83CDB455C49B68A3D7CBEEAF31D03E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B120A65BC3967D3C0EAC33E1DBBD52 /* ShortClipVideoTrimmerUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E419501C352646BE55EAB0E13405B733 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				994C86B8E18D1AC66644A53CAE1AE01F /* Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A657F6B5ED25180A818C5706FF80F0B9 /* Pods-ShortClipVideoTrimmerUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 699482F88045C38E9614CD60D3609169 /* Build configuration list for PBXNativeTarget "Pods-ShortClipVideoTrimmerUI_Example" */;
+			buildPhases = (
+				C0FB365D8AAC4665C673EFD8131E056D /* Headers */,
+				4667556473B87D54057FAFB3DAEBAC0E /* Sources */,
+				65B2DC1FA2AEAA611DEC58258FB8E504 /* Frameworks */,
+				4ED1C71EEE2D1A763515156CE34D273A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EF1A270E8C68F61054BFE9F11F46DF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShortClipVideoTrimmerUI_Example";
+			productName = Pods_ShortClipVideoTrimmerUI_Example;
+			productReference = 9CF6109BF95BDE1BB00C278A9961E3ED /* Pods_ShortClipVideoTrimmerUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE19BAF7C088D2A1EA31401B240BC82B /* Pods-ShortClipVideoTrimmerUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5E8B57D237BED81FE8A55826A5D898B /* Build configuration list for PBXNativeTarget "Pods-ShortClipVideoTrimmerUI_Tests" */;
+			buildPhases = (
+				E419501C352646BE55EAB0E13405B733 /* Headers */,
+				638E87B4B89AFF601DF546CF17723D48 /* Sources */,
+				35151947D066122DFE499FFD38C693F3 /* Frameworks */,
+				837E8CC57027A351427B4DD2C78D342F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0ED9B5F3965167FC1CA1E68A18D32619 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShortClipVideoTrimmerUI_Tests";
+			productName = Pods_ShortClipVideoTrimmerUI_Tests;
+			productReference = E49599A9D716B1B6A69B810CA758DBBB /* Pods-ShortClipVideoTrimmerUI_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		FBED2E76EA86B2C99A8771588DA94848 /* ShortClipVideoTrimmerUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E75D4C4A3325711BCACBFF251711FD0 /* Build configuration list for PBXNativeTarget "ShortClipVideoTrimmerUI" */;
+			buildPhases = (
+				C83CDB455C49B68A3D7CBEEAF31D03E3 /* Headers */,
+				1093E45450702DAC563FB1492F56C83A /* Sources */,
+				E275E13182CC9A3D7C6D907F18AFD9AE /* Frameworks */,
+				9422F1959AA3301E260AA824AFD04DF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortClipVideoTrimmerUI;
+			productName = ShortClipVideoTrimmerUI;
+			productReference = E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 16F25CAFD522A9E131721ADA83425FAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A657F6B5ED25180A818C5706FF80F0B9 /* Pods-ShortClipVideoTrimmerUI_Example */,
+				CE19BAF7C088D2A1EA31401B240BC82B /* Pods-ShortClipVideoTrimmerUI_Tests */,
+				FBED2E76EA86B2C99A8771588DA94848 /* ShortClipVideoTrimmerUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ED1C71EEE2D1A763515156CE34D273A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		837E8CC57027A351427B4DD2C78D342F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9422F1959AA3301E260AA824AFD04DF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1093E45450702DAC563FB1492F56C83A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2273E2C5F26AE0063388FECE090CED5B /* ShortClipVideoTrimmerUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4667556473B87D54057FAFB3DAEBAC0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A6FA681E7900120360DEE594F9A0BC /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638E87B4B89AFF601DF546CF17723D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9F94CC01B30BEE33EC9E75DD3F31419 /* Pods-ShortClipVideoTrimmerUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0ED9B5F3965167FC1CA1E68A18D32619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ShortClipVideoTrimmerUI_Example";
+			target = A657F6B5ED25180A818C5706FF80F0B9 /* Pods-ShortClipVideoTrimmerUI_Example */;
+			targetProxy = 198F544F5C5C6E457F67F29E2FA89A20 /* PBXContainerItemProxy */;
+		};
+		0EF1A270E8C68F61054BFE9F11F46DF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ShortClipVideoTrimmerUI;
+			target = FBED2E76EA86B2C99A8771588DA94848 /* ShortClipVideoTrimmerUI */;
+			targetProxy = 7A08A0258E600AD7DD7295C740BE1FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B2FAC167E05E60D733ED8AE2E39E008 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 792C30ABB380D0C8D22535A2EEC1916F /* Pods-ShortClipVideoTrimmerUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4AB3D1725415F4CF04CFDC5CBA2CCE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14D70A514F5428A6A3EA1C2C9ED6C977 /* Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		65D965555700EED14B0CB504D34E2C9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8962244C08708B6D84155F33D3F5E5B /* ShortClipVideoTrimmerUI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI.modulemap";
+				PRODUCT_MODULE_NAME = ShortClipVideoTrimmerUI;
+				PRODUCT_NAME = ShortClipVideoTrimmerUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0B6B4576EA93006C66840413B4B5EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B260E22B3D813933F2E85E09751DE2C /* Pods-ShortClipVideoTrimmerUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D444069E29559FFE31BAD9AF84470B86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 078859DF81A95728535D484163D1B03C /* Pods-ShortClipVideoTrimmerUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DFDB196C42568D203FFFBC9990075484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE112A6D859A447966C90A5DE7A8CA9E /* ShortClipVideoTrimmerUI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI.modulemap";
+				PRODUCT_MODULE_NAME = ShortClipVideoTrimmerUI;
+				PRODUCT_NAME = ShortClipVideoTrimmerUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E75D4C4A3325711BCACBFF251711FD0 /* Build configuration list for PBXNativeTarget "ShortClipVideoTrimmerUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFDB196C42568D203FFFBC9990075484 /* Debug */,
+				65D965555700EED14B0CB504D34E2C9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		699482F88045C38E9614CD60D3609169 /* Build configuration list for PBXNativeTarget "Pods-ShortClipVideoTrimmerUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB3D1725415F4CF04CFDC5CBA2CCE01 /* Debug */,
+				3B2FAC167E05E60D733ED8AE2E39E008 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5E8B57D237BED81FE8A55826A5D898B /* Build configuration list for PBXNativeTarget "Pods-ShortClipVideoTrimmerUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D444069E29559FFE31BAD9AF84470B86 /* Debug */,
+				B0B6B4576EA93006C66840413B4B5EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

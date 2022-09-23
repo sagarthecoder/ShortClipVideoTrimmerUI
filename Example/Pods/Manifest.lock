@@ -1,0 +1,16 @@
+PODS:
+  - ShortClipVideoTrimmerUI (0.1.0)
+
+DEPENDENCIES:
+  - ShortClipVideoTrimmerUI (from `../`)
+
+EXTERNAL SOURCES:
+  ShortClipVideoTrimmerUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ShortClipVideoTrimmerUI: 6afdf9684c10773e02afb0c0ca5ccc80fb1c88b2
+
+PODFILE CHECKSUM: d22e9e0b8dfb8e685f904ef67bc517fa489bc644
+
+COCOAPODS: 1.11.2
