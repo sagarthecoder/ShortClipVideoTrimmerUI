@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   
   s.swift_version = '5.0'
   s.resource_bundles = {
-     'ShortClipVideoTrimmerUI' => ['ShortClipVideoTrimmerUI/Assets/**/*']
+     'ShortClipVideoTrimmerUI' => ['ShortClipVideoTrimmerUI/Assets/*.{xcassets}']
    }
 
 end

@@ -133,18 +133,11 @@
 		1BBA6BEF28DE4BB700F693CD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				1BBA6BF028DE505100F693CD /* Modules */,
+				1BBA6BF428DE505100F693CD /* Presenter */,
+				1BBA6BF628DE505100F693CD /* Views */,
+				1BBA6BF128DE505100F693CD /* Extensions */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		1BBA6BF028DE505100F693CD /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				1BBA6BF128DE505100F693CD /* Extensions */,
-				1BBA6BF328DE505100F693CD /* TrimUIPage */,
-			);
-			path = Modules;
 			sourceTree = "<group>";
 		};
 		1BBA6BF128DE505100F693CD /* Extensions */ = {
@@ -153,15 +146,6 @@
 				1BBA6BF228DE505100F693CD /* CMTime+Extension.swift */,
 			);
 			path = Extensions;
-			sourceTree = "<group>";
-		};
-		1BBA6BF328DE505100F693CD /* TrimUIPage */ = {
-			isa = PBXGroup;
-			children = (
-				1BBA6BF428DE505100F693CD /* Presenter */,
-				1BBA6BF628DE505100F693CD /* Views */,
-			);
-			path = TrimUIPage;
 			sourceTree = "<group>";
 		};
 		1BBA6BF428DE505100F693CD /* Presenter */ = {
