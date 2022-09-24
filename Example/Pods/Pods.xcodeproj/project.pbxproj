@@ -13,8 +13,8 @@
 		1B17860B28DEEDBF00CB8F93 /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF828DE505100F693CD /* HandlerView.swift */; };
 		1B17860C28DEEDC500CB8F93 /* ShortClipThumbnailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF928DE505100F693CD /* ShortClipThumbnailsCollectionViewCell.swift */; };
 		1B17860D28DEEDC800CB8F93 /* ShortClipVideoTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BFA28DE505100F693CD /* ShortClipVideoTrimmerView.swift */; };
-		1B17860E28DEEDCF00CB8F93 /* SupportingAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */; };
 		1B17860F28DEF1A100CB8F93 /* CMTime+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF228DE505100F693CD /* CMTime+Extension.swift */; };
+		1B2E42F528DF7EDA00A46454 /* loader.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 1B2E42F428DF7EDA00A46454 /* loader.jpeg */; };
 		1CC60FBE97CCD2DC56A2B2CDAF369E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2273E2C5F26AE0063388FECE090CED5B /* ShortClipVideoTrimmerUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D2974B78971084873459EAF59C066A /* ShortClipVideoTrimmerUI-dummy.m */; };
 		3A867EE7FC8725C504ECB66D30BCE6AE /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D112D11800F3A8F71E53EA56372DEB0 /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,13 +50,13 @@
 		0D0E35AE5A6821D8696CCABE727CFAD8 /* ShortClipVideoTrimmerUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ShortClipVideoTrimmerUI-umbrella.h"; sourceTree = "<group>"; };
 		14D70A514F5428A6A3EA1C2C9ED6C977 /* Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortClipVideoTrimmerUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		17C48BFF3CDB62E3484C838F112B4F13 /* Pods-ShortClipVideoTrimmerUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		1B2E42F428DF7EDA00A46454 /* loader.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = loader.jpeg; sourceTree = "<group>"; };
 		1BBA6BF228DE505100F693CD /* CMTime+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CMTime+Extension.swift"; sourceTree = "<group>"; };
 		1BBA6BF528DE505100F693CD /* ShortClipThumbnailsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortClipThumbnailsPresenter.swift; sourceTree = "<group>"; };
 		1BBA6BF728DE505100F693CD /* ShortClipVideoTrimmerContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortClipVideoTrimmerContentView.swift; sourceTree = "<group>"; };
 		1BBA6BF828DE505100F693CD /* HandlerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandlerView.swift; sourceTree = "<group>"; };
 		1BBA6BF928DE505100F693CD /* ShortClipThumbnailsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortClipThumbnailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		1BBA6BFA28DE505100F693CD /* ShortClipVideoTrimmerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShortClipVideoTrimmerView.swift; sourceTree = "<group>"; };
-		1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = SupportingAssets.xcassets; sourceTree = "<group>"; };
 		27D2974B78971084873459EAF59C066A /* ShortClipVideoTrimmerUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ShortClipVideoTrimmerUI-dummy.m"; sourceTree = "<group>"; };
 		290097CE7E96D00F11E8517E495E64DA /* Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortClipVideoTrimmerUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3BF12DBA270B69A27EA99A9DE5D71C44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -122,12 +122,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B17861028DEFA5C00CB8F93 /* Assets */ = {
+		1B2E42F328DF7E9200A46454 /* ShortClipVideoTrimmerUI.Bundle */ = {
 			isa = PBXGroup;
 			children = (
-				1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */,
+				1B2E42F428DF7EDA00A46454 /* loader.jpeg */,
 			);
-			path = Assets;
+			path = ShortClipVideoTrimmerUI.Bundle;
 			sourceTree = "<group>";
 		};
 		1BBA6BEF28DE4BB700F693CD /* Sources */ = {
@@ -170,7 +170,7 @@
 		41B99514B2E1DFED21006929170A354D /* ShortClipVideoTrimmerUI */ = {
 			isa = PBXGroup;
 			children = (
-				1B17861028DEFA5C00CB8F93 /* Assets */,
+				1B2E42F328DF7E9200A46454 /* ShortClipVideoTrimmerUI.Bundle */,
 				1BBA6BEF28DE4BB700F693CD /* Sources */,
 				C589941C02DEF2F69FE9E17C12352ED5 /* Pod */,
 				8E82EA92B8B7FBCCA43989DC506A4050 /* Support Files */,
@@ -415,7 +415,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B17860E28DEEDCF00CB8F93 /* SupportingAssets.xcassets in Resources */,
+				1B2E42F528DF7EDA00A46454 /* loader.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

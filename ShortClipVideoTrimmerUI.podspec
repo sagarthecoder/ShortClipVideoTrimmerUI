@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShortClipVideoTrimmerUI'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'a smart UI designed in swift (programatically) to help you to trim a video with showing lots of frames accurately.'
 
 
@@ -27,8 +27,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.{swift}'
   
   s.swift_version = '5.0'
-  s.resource_bundles = {
-     'ShortClipVideoTrimmerUI' => ['Assets/*.{xcassets}']
-   }
+  s.resources = 'ShortClipVideoTrimmerUI.bundle'
+  
 
 end
