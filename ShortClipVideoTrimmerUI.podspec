@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShortClipVideoTrimmerUI'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'a smart UI designed in swift (programatically) to help you to trim a video with showing lots of frames accurately.'
 
 
