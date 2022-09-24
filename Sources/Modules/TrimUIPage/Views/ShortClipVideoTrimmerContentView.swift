@@ -20,7 +20,7 @@ public protocol ShortClipVideoTrimmerContentViewDelegate : AnyObject {
 }
 
 
-@IBDesignable public  class ShortClipVideoTrimmerContentView: UIView {
+public  class ShortClipVideoTrimmerContentView: UIView {
     
     private var loadingImage : UIImage?
     private let identifier = "identifier"

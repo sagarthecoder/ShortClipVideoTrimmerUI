@@ -11,34 +11,24 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'a smart UI designed in swift (programatically) to help you to trim a video with showing lots of frames accurately.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'A UIView named ShortClipVideoTrimmerContentView which helps you to select a portion of an AVAsset. It provides you with a customizable component that indicates the portion of video selected as per as the condition of maximum trimming duration you provided. It shows lots of frames which is perfectly calculated.'
                        DESC
 
-  s.homepage         = 'https://github.com/Sagar Chandra Das/ShortClipVideoTrimmerUI'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/sagarthecoder/ShortClipVideoTrimmerUI'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Sagar Chandra Das' => 'sagarthecoder@gmail.com' }
-  s.source           = { :git => 'https://github.com/Sagar Chandra Das/ShortClipVideoTrimmerUI.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/sagarthecoder/ShortClipVideoTrimmerUI.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/sagarthecoder'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'ShortClipVideoTrimmerUI/Sources/**/*'
   
   s.swift_version = '5.0'
-  #
-   s.resource_bundles = {
+  s.resource_bundles = {
      'ShortClipVideoTrimmerUI' => ['ShortClipVideoTrimmerUI/Assets/**/*']
    }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

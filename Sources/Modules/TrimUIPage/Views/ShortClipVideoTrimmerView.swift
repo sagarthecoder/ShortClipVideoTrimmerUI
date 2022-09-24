@@ -157,7 +157,7 @@ class ShortClipVideoTrimmerView: UIView {
     private func setupLeftHandlerView() {
         leftHandleView.isUserInteractionEnabled = true
         leftHandleView.translatesAutoresizingMaskIntoConstraints = false
-        leftHandleView.layer.cornerRadius = 3.0
+        leftHandleView.layer.cornerRadius = 2.0
         leftHandleView.tag = -1000
         addSubview(leftHandleView)
         leftHandlerWidthConstraint = leftHandleView.widthAnchor.constraint(equalToConstant: handlerWidth)
@@ -166,7 +166,6 @@ class ShortClipVideoTrimmerView: UIView {
             leftHandleView.topAnchor.constraint(equalTo: trimView.topAnchor),
             leftHandleView.leftAnchor.constraint(equalTo: trimView.leftAnchor, constant: 0),
             leftHandleView.heightAnchor.constraint(equalTo: trimView.heightAnchor)
-            
         ])
         
         leftHandleKnob.translatesAutoresizingMaskIntoConstraints = false
@@ -184,7 +183,7 @@ class ShortClipVideoTrimmerView: UIView {
     private func setupRightHandlerView() {
         rightHandleView.isUserInteractionEnabled = true
         rightHandleView.translatesAutoresizingMaskIntoConstraints = false
-        rightHandleView.layer.cornerRadius = 3.0
+        rightHandleView.layer.cornerRadius = 2.0
         rightHandleView.tag = -2000
         addSubview(rightHandleView)
         rightHandlerWidthConstraint = rightHandleView.widthAnchor.constraint(equalToConstant: handlerWidth)
@@ -211,7 +210,7 @@ class ShortClipVideoTrimmerView: UIView {
         leftMaskView.translatesAutoresizingMaskIntoConstraints = false
         insertSubview(leftMaskView, belowSubview: leftHandleView)
         
-        leftMaskView.leftAnchor.constraint(equalTo: leftAnchor, constant: handlerWidth/2).isActive = true
+        leftMaskView.leftAnchor.constraint(equalTo: leftAnchor, constant: 0).isActive = true
         leftMaskView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         leftMaskView.topAnchor.constraint(equalTo: topAnchor, constant:0.0).isActive = true
         leftMaskView.rightAnchor.constraint(equalTo: leftHandleView.rightAnchor, constant: 0).isActive = true
@@ -220,7 +219,7 @@ class ShortClipVideoTrimmerView: UIView {
         rightMaskView.translatesAutoresizingMaskIntoConstraints = false
         insertSubview(rightMaskView, belowSubview: rightHandleView)
         
-        rightMaskView.rightAnchor.constraint(equalTo: rightAnchor, constant: -handlerWidth/2).isActive = true
+        rightMaskView.rightAnchor.constraint(equalTo: rightAnchor, constant: 0).isActive = true
         rightMaskView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
         rightMaskView.topAnchor.constraint(equalTo: topAnchor, constant: 0.0).isActive = true
         rightMaskView.leftAnchor.constraint(equalTo: rightHandleView.leftAnchor, constant: 0).isActive = true

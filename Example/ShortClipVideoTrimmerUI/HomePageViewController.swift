@@ -14,6 +14,7 @@ import ShortClipVideoTrimmerUI
 class HomePageViewController: UIViewController {
 
     
+    
     @IBOutlet weak var thumbnailsSuperView: UIView!
     @IBOutlet weak var trimmingTimeLabel: UILabel!
     @IBOutlet weak var videoPlayerView: UIView!
@@ -71,7 +72,7 @@ class HomePageViewController: UIViewController {
             guard let thisSelf = self else {
                 return
             }
-            // from here you need to pass current time of VideoPlayer
+            // From here you need to pass current time of VideoPlayer
             thisSelf.videoDidChange(time : videoPlayer.currentTime())
         }
     }

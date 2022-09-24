@@ -11,7 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomePageViewController" customModule="ShortClipVideoTrimmerUI_Example" customModuleProvider="target">
             <connections>
-                <outlet property="thumbnailsSuperView" destination="ful-Ne-Flb" id="mPz-DX-3qn"/>
+                <outlet property="thumbnailsSuperView" destination="ful-Ne-Flb" id="M83-nr-uQv"/>
                 <outlet property="trimmingTimeLabel" destination="kLz-BW-Q0p" id="ZKn-rj-RZO"/>
                 <outlet property="videoPlayerView" destination="kS8-WE-mLQ" id="bwN-f6-wOB"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>

@@ -10,8 +10,11 @@
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+- iOS 9.0+
+- Interoperability with Swift 5.0+
 
 ## Installation
+### CocoaPods
 
 ShortClipVideoTrimmerUI is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -19,10 +22,15 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'ShortClipVideoTrimmerUI'
 ```
+## Usage
+:warning: _This library doesn't provide any Trimming Implementations. It has just provided the UI with video frames. You'll get trimming area (means trimming start time and trimming finish time) and then you can do anything with these information.
+
+### Trimming
+
 
 ## Author
 
-Sagar Chandra Das, sagar@bitmorpher.com
+Sagar Chandra Das, sagarthecoder@gmail.com
 
 ## License
 
