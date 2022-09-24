@@ -27,7 +27,7 @@ pod 'ShortClipVideoTrimmerUI'
 ```
 ## Usage
 
-:warning: _This library doesn't provide any Trimming Implementations. It has just provided the UI with video frames. You'll get trimming area (means trimming start time and trimming finish time) and then you can do anything with these informations.
+:warning: This library doesn't provide any Trimming Implementations. It has just provided the UI with video frames. You'll get trimming area (means trimming start time and trimming finish time) and then you can do anything with these informations.
 
 ### Trimming
 
