@@ -8,7 +8,7 @@
 import UIKit
 import AVFoundation
 
-protocol ShortClipVideoTrimmerContentViewDelegate : AnyObject {
+public protocol ShortClipVideoTrimmerContentViewDelegate : AnyObject {
     /// This method will be fired when positionBar is reached to Finishing line of Trimming
     func didMoveToFinishPosition(startTime : CGFloat, finishTime : CGFloat)
     
@@ -20,8 +20,9 @@ protocol ShortClipVideoTrimmerContentViewDelegate : AnyObject {
 }
 
 
-public class ShortClipVideoTrimmerContentView: UIView {
+@IBDesignable public  class ShortClipVideoTrimmerContentView: UIView {
     
+    private var loadingImage : UIImage?
     private let identifier = "identifier"
     private var presenter : ShortClipThumbnailsPresenter?
     private var timeScale : CMTimeScale = 600
@@ -30,7 +31,7 @@ public class ShortClipVideoTrimmerContentView: UIView {
     var delayBetweenFrames : CGFloat = 0.0
     
     private var trimmerView : ShortClipVideoTrimmerView?
-    weak var delegate : ShortClipVideoTrimmerContentViewDelegate?
+    public weak var delegate : ShortClipVideoTrimmerContentViewDelegate?
     var nextDestination : Double = 0.0
     private var trimmingStartTime : CGFloat = 0.0 {
         didSet {
@@ -73,17 +74,18 @@ public class ShortClipVideoTrimmerContentView: UIView {
     }()
     
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setupViews()
     }
     
-    required init?(coder: NSCoder) {
+    required public init?(coder: NSCoder) {
         super.init(coder: coder)
         setupViews()
     }
     
     private func setupViews() {
+        loadingImage = UIImage(named: "loader.jpeg", in: Bundle(for: type(of: self)), compatibleWith: nil)
         clipsToBounds = false
         self.layer.masksToBounds = false
         addSubview(collectionView)
@@ -109,7 +111,7 @@ public class ShortClipVideoTrimmerContentView: UIView {
     ///     - asset : A valid AVAsset
     ///     - maxTrimmingDuration : Maximum trimming duration. That means if you set maxTrimmingDuration = 10 then you can handle at most 10 seconds of consecutive frames from any part of the video. Default is 10
     ///     - numberOfFramesPerCycle : total number of frames can be shown in each circle. Default is 7
-    func startOperation(asset : AVAsset, maxTrimmingDuration : Double = 10.0, numberOfFramesPerCycle : Int = 7) {
+    public func startOperation(asset : AVAsset, maxTrimmingDuration : Double = 10.0, numberOfFramesPerCycle : Int = 7) {
         presenter = ShortClipThumbnailsPresenter(asset: asset, numberOfFramesPerCycle: numberOfFramesPerCycle)
         presenter?.delegate = self
         presenter?.removeAllFrames()
@@ -146,7 +148,7 @@ public class ShortClipVideoTrimmerContentView: UIView {
         return layout
     }
     
-    func reloadFrames() {
+    public func reloadFrames() {
         DispatchQueue.main.async {
             self.collectionView.reloadData()
         }
@@ -188,14 +190,14 @@ public class ShortClipVideoTrimmerContentView: UIView {
     }
     
     /// get start and finish time of trimming
-    func getTrimmingStartFinishTime()-> (trimStartTime : CGFloat, trimFinishTime : CGFloat) {
+    public func getTrimmingStartFinishTime()-> (trimStartTime : CGFloat, trimFinishTime : CGFloat) {
         return (trimmingStartTime, trimmingFinishTime)
     }
     
     /// update positionBar with respect to player's current time
     /// - Parameters:
     ///     - cmTime: current time of AVPlayer or any Player which supports video playing
-    func updatePositionBarConstraint(cmTime : CMTime) {
+    public func updatePositionBarConstraint(cmTime : CMTime) {
         let seconds = cmTime.asDouble
         if self.trimmingFinishTime.isLess(than: seconds) {
             delegate?.didMoveToFinishPosition(startTime: self.trimmingStartTime, finishTime: self.trimmingFinishTime)
@@ -222,7 +224,7 @@ extension ShortClipVideoTrimmerContentView : UICollectionViewDataSource {
         if indexPath.item < presenter.numberOfThumbnails, let visibleFrameItem = presenter.visibleVideoFrameItemsDict[indexPath.item] {
             cell.imageView.image = visibleFrameItem.frame
         } else {
-            cell.imageView.image = UIImage(named: "loader")
+            cell.imageView.image = loadingImage
         }
         return cell
     }
@@ -296,46 +298,46 @@ extension ShortClipVideoTrimmerContentView : ShortClipThumbnailsPresenterDelegat
 
 extension ShortClipVideoTrimmerContentView {
     /// update left and right Handler's width
-    func updateHandlerWidth(width : CGFloat) {
+    public func updateHandlerWidth(width : CGFloat) {
         trimmerView?.handlerWidth = width
     }
     
     /// update Knob's Width
-    func updateKnobWidth(width : CGFloat) {
+    public func updateKnobWidth(width : CGFloat) {
         trimmerView?.knobWidth = width
     }
     
     /// update positionBar's Width
-    func updatePositionBarWidth(width : CGFloat) {
+    public func updatePositionBarWidth(width : CGFloat) {
         trimmerView?.positionBarWidth = width
     }
     
   
-    func updateTrimmingAreaBorderWidth(width : CGFloat) {
+    public func updateTrimmingAreaBorderWidth(width : CGFloat) {
         trimmerView?.borderWidth = width
     }
     
-    func handlerColor(color : UIColor) {
+    public func handlerColor(color : UIColor) {
         trimmerView?.handlerColor = color
     }
     
-    func updateTrimmingAreaBorderColor(color : UIColor) {
+    public func updateTrimmingAreaBorderColor(color : UIColor) {
         trimmerView?.borderColor = color
     }
     
-    func updateKnobColor(color : UIColor) {
+    public func updateKnobColor(color : UIColor) {
         trimmerView?.knobColor = color
     }
     
-    func updatePositionBarColor(color : UIColor) {
+    public func updatePositionBarColor(color : UIColor) {
         trimmerView?.positionBarColor = color
     }
     
-    func updateTrimmingOutsideBackgroundColor(color : UIColor) {
+    public func updateTrimmingOutsideBackgroundColor(color : UIColor) {
         trimmerView?.outsideTrimBackgroundColor = color
     }
     
-    func updateTrimmingOutsideMaskAlpha(alpha : CGFloat) {
+    public func updateTrimmingOutsideMaskAlpha(alpha : CGFloat) {
         trimmerView?.maskAlpha = alpha
     }
 }

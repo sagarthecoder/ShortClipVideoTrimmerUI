@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomePageViewController" customModule="ShortClipVideoTrimmerUI_Example" customModuleProvider="target">
+            <connections>
+                <outlet property="thumbnailsSuperView" destination="ful-Ne-Flb" id="mPz-DX-3qn"/>
+                <outlet property="trimmingTimeLabel" destination="kLz-BW-Q0p" id="ZKn-rj-RZO"/>
+                <outlet property="videoPlayerView" destination="kS8-WE-mLQ" id="bwN-f6-wOB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ful-Ne-Flb" userLabel="Thumnails Super View">
+                    <rect key="frame" x="10" y="104" width="394" height="60"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="cI5-l8-PzV"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tq7-ex-1eE" userLabel="Timing View">
+                    <rect key="frame" x="0.0" y="172" width="414" height="20"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.0 : 0.0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLz-BW-Q0p" userLabel="trimTimeLabel">
+                            <rect key="frame" x="176.5" y="-0.5" width="61" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" systemColor="systemGreenColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="kLz-BW-Q0p" firstAttribute="centerY" secondItem="Tq7-ex-1eE" secondAttribute="centerY" id="hs1-ZG-sWV"/>
+                        <constraint firstAttribute="height" constant="20" id="hwI-0i-TtY"/>
+                        <constraint firstItem="kLz-BW-Q0p" firstAttribute="centerX" secondItem="Tq7-ex-1eE" secondAttribute="centerX" id="z9p-eb-uZS"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kS8-WE-mLQ" userLabel="Video Player View">
+                    <rect key="frame" x="0.0" y="217" width="414" height="545"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfG-cK-mJl" userLabel="Trim Button">
+                    <rect key="frame" x="330" y="48" width="80" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="dta-Tn-kKj"/>
+                        <constraint firstAttribute="height" constant="40" id="jlw-L4-7EN"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="Trim">
+                        <color key="titleColor" systemColor="linkColor"/>
+                    </state>
+                    <connections>
+                        <action selector="trimButtonAction:" destination="-1" eventType="touchUpInside" id="ilJ-xx-K3p"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Tq7-ex-1eE" secondAttribute="trailing" id="38i-4R-FZb"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bfG-cK-mJl" secondAttribute="trailing" constant="4" id="A6y-CA-E8j"/>
+                <constraint firstItem="bfG-cK-mJl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="4" id="Q1p-m4-lyo"/>
+                <constraint firstItem="kS8-WE-mLQ" firstAttribute="top" secondItem="Tq7-ex-1eE" secondAttribute="bottom" constant="25" id="TjM-VF-6tH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kS8-WE-mLQ" secondAttribute="trailing" id="Z89-bf-vFf"/>
+                <constraint firstItem="kS8-WE-mLQ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="aLq-JF-qLg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ful-Ne-Flb" secondAttribute="trailing" constant="10" id="bea-9a-XPH"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="kS8-WE-mLQ" secondAttribute="bottom" constant="100" id="fTb-6Y-nDP"/>
+                <constraint firstItem="ful-Ne-Flb" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="60" id="h0w-Ot-WAE"/>
+                <constraint firstItem="Tq7-ex-1eE" firstAttribute="top" secondItem="ful-Ne-Flb" secondAttribute="bottom" constant="8" id="o05-oc-zcl"/>
+                <constraint firstItem="Tq7-ex-1eE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="z8s-3q-ddh"/>
+                <constraint firstItem="ful-Ne-Flb" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="10" id="zKD-Zh-mrs"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="125"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

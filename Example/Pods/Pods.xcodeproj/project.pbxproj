@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		18A6FA681E7900120360DEE594F9A0BC /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C0E47A74C72D3A31FBA107435EBEC1 /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m */; };
-		1BBA6BFD28DE505100F693CD /* CMTime+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF228DE505100F693CD /* CMTime+Extension.swift */; };
-		1BBA6BFE28DE505100F693CD /* ShortClipThumbnailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF528DE505100F693CD /* ShortClipThumbnailsPresenter.swift */; };
-		1BBA6BFF28DE505100F693CD /* ShortClipVideoTrimmerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF728DE505100F693CD /* ShortClipVideoTrimmerContentView.swift */; };
-		1BBA6C0028DE505100F693CD /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF828DE505100F693CD /* HandlerView.swift */; };
-		1BBA6C0128DE505100F693CD /* ShortClipThumbnailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF928DE505100F693CD /* ShortClipThumbnailsCollectionViewCell.swift */; };
-		1BBA6C0228DE505100F693CD /* ShortClipVideoTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BFA28DE505100F693CD /* ShortClipVideoTrimmerView.swift */; };
-		1BBA6C0328DE505100F693CD /* SupportingAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */; };
+		1B17860928DEEDB700CB8F93 /* ShortClipThumbnailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF528DE505100F693CD /* ShortClipThumbnailsPresenter.swift */; };
+		1B17860A28DEEDBD00CB8F93 /* ShortClipVideoTrimmerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF728DE505100F693CD /* ShortClipVideoTrimmerContentView.swift */; };
+		1B17860B28DEEDBF00CB8F93 /* HandlerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF828DE505100F693CD /* HandlerView.swift */; };
+		1B17860C28DEEDC500CB8F93 /* ShortClipThumbnailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF928DE505100F693CD /* ShortClipThumbnailsCollectionViewCell.swift */; };
+		1B17860D28DEEDC800CB8F93 /* ShortClipVideoTrimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BFA28DE505100F693CD /* ShortClipVideoTrimmerView.swift */; };
+		1B17860E28DEEDCF00CB8F93 /* SupportingAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */; };
+		1B17860F28DEF1A100CB8F93 /* CMTime+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBA6BF228DE505100F693CD /* CMTime+Extension.swift */; };
 		1CC60FBE97CCD2DC56A2B2CDAF369E1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2273E2C5F26AE0063388FECE090CED5B /* ShortClipVideoTrimmerUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27D2974B78971084873459EAF59C066A /* ShortClipVideoTrimmerUI-dummy.m */; };
 		3A867EE7FC8725C504ECB66D30BCE6AE /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D112D11800F3A8F71E53EA56372DEB0 /* Pods-ShortClipVideoTrimmerUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -77,9 +77,9 @@
 		CF3ED204DF4132252A4590D789326CE9 /* Pods-ShortClipVideoTrimmerUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortClipVideoTrimmerUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		D4206E9A7AA55C1DC064D267A61DF3D7 /* Pods-ShortClipVideoTrimmerUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Example-Info.plist"; sourceTree = "<group>"; };
 		DE112A6D859A447966C90A5DE7A8CA9E /* ShortClipVideoTrimmerUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ShortClipVideoTrimmerUI.debug.xcconfig; sourceTree = "<group>"; };
-		E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ShortClipVideoTrimmerUI; path = ShortClipVideoTrimmerUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ShortClipVideoTrimmerUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E297D5435B835EC8523ECE8FFC76D212 /* Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortClipVideoTrimmerUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E49599A9D716B1B6A69B810CA758DBBB /* Pods-ShortClipVideoTrimmerUI_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ShortClipVideoTrimmerUI_Tests"; path = Pods_ShortClipVideoTrimmerUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E49599A9D716B1B6A69B810CA758DBBB /* Pods_ShortClipVideoTrimmerUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortClipVideoTrimmerUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6DF847DA03B1AE5969C9226CA582C8C /* Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortClipVideoTrimmerUI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		FBFD80D1ED153811E222E3C401C0977E /* ShortClipVideoTrimmerUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ShortClipVideoTrimmerUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -116,17 +116,24 @@
 			isa = PBXGroup;
 			children = (
 				9CF6109BF95BDE1BB00C278A9961E3ED /* Pods_ShortClipVideoTrimmerUI_Example.framework */,
-				E49599A9D716B1B6A69B810CA758DBBB /* Pods-ShortClipVideoTrimmerUI_Tests */,
-				E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI */,
+				E49599A9D716B1B6A69B810CA758DBBB /* Pods_ShortClipVideoTrimmerUI_Tests.framework */,
+				E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1B17861028DEFA5C00CB8F93 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		1BBA6BEF28DE4BB700F693CD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
 				1BBA6BF028DE505100F693CD /* Modules */,
-				1BBA6BFB28DE505100F693CD /* SupportingFiles */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -176,17 +183,10 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		1BBA6BFB28DE505100F693CD /* SupportingFiles */ = {
-			isa = PBXGroup;
-			children = (
-				1BBA6BFC28DE505100F693CD /* SupportingAssets.xcassets */,
-			);
-			path = SupportingFiles;
-			sourceTree = "<group>";
-		};
 		41B99514B2E1DFED21006929170A354D /* ShortClipVideoTrimmerUI */ = {
 			isa = PBXGroup;
 			children = (
+				1B17861028DEFA5C00CB8F93 /* Assets */,
 				1BBA6BEF28DE4BB700F693CD /* Sources */,
 				C589941C02DEF2F69FE9E17C12352ED5 /* Pod */,
 				8E82EA92B8B7FBCCA43989DC506A4050 /* Support Files */,
@@ -362,7 +362,7 @@
 			);
 			name = "Pods-ShortClipVideoTrimmerUI_Tests";
 			productName = Pods_ShortClipVideoTrimmerUI_Tests;
-			productReference = E49599A9D716B1B6A69B810CA758DBBB /* Pods-ShortClipVideoTrimmerUI_Tests */;
+			productReference = E49599A9D716B1B6A69B810CA758DBBB /* Pods_ShortClipVideoTrimmerUI_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		FBED2E76EA86B2C99A8771588DA94848 /* ShortClipVideoTrimmerUI */ = {
@@ -380,7 +380,7 @@
 			);
 			name = ShortClipVideoTrimmerUI;
 			productName = ShortClipVideoTrimmerUI;
-			productReference = E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI */;
+			productReference = E0D9D528060BCE079347431BDD2AAB9D /* ShortClipVideoTrimmerUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -417,7 +417,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBA6C0328DE505100F693CD /* SupportingAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +431,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B17860E28DEEDCF00CB8F93 /* SupportingAssets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +442,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B17860F28DEF1A100CB8F93 /* CMTime+Extension.swift in Sources */,
+				1B17860C28DEEDC500CB8F93 /* ShortClipThumbnailsCollectionViewCell.swift in Sources */,
+				1B17860A28DEEDBD00CB8F93 /* ShortClipVideoTrimmerContentView.swift in Sources */,
+				1B17860B28DEEDBF00CB8F93 /* HandlerView.swift in Sources */,
+				1B17860928DEEDB700CB8F93 /* ShortClipThumbnailsPresenter.swift in Sources */,
+				1B17860D28DEEDC800CB8F93 /* ShortClipVideoTrimmerView.swift in Sources */,
 				2273E2C5F26AE0063388FECE090CED5B /* ShortClipVideoTrimmerUI-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -450,12 +456,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BBA6C0228DE505100F693CD /* ShortClipVideoTrimmerView.swift in Sources */,
-				1BBA6C0128DE505100F693CD /* ShortClipThumbnailsCollectionViewCell.swift in Sources */,
-				1BBA6BFD28DE505100F693CD /* CMTime+Extension.swift in Sources */,
-				1BBA6C0028DE505100F693CD /* HandlerView.swift in Sources */,
-				1BBA6BFE28DE505100F693CD /* ShortClipThumbnailsPresenter.swift in Sources */,
-				1BBA6BFF28DE505100F693CD /* ShortClipVideoTrimmerContentView.swift in Sources */,
 				18A6FA681E7900120360DEE594F9A0BC /* Pods-ShortClipVideoTrimmerUI_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,7 +502,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example.modulemap";
@@ -513,6 +513,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -536,7 +537,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Example/Pods-ShortClipVideoTrimmerUI_Example.modulemap";
@@ -547,6 +548,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -569,15 +571,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI.modulemap";
 				PRODUCT_MODULE_NAME = ShortClipVideoTrimmerUI;
 				PRODUCT_NAME = ShortClipVideoTrimmerUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -635,7 +638,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -662,7 +665,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests.modulemap";
@@ -673,6 +676,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -733,7 +737,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -762,7 +766,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-ShortClipVideoTrimmerUI_Tests/Pods-ShortClipVideoTrimmerUI_Tests.modulemap";
@@ -773,6 +777,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -795,15 +800,16 @@
 				GCC_PREFIX_HEADER = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ShortClipVideoTrimmerUI/ShortClipVideoTrimmerUI.modulemap";
 				PRODUCT_MODULE_NAME = ShortClipVideoTrimmerUI;
 				PRODUCT_NAME = ShortClipVideoTrimmerUI;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
