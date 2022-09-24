@@ -1,6 +1,5 @@
 # ShortClipVideoTrimmerUI
 
-[![CI Status](https://img.shields.io/travis/Sagar Chandra Das/ShortClipVideoTrimmerUI.svg?style=flat)](https://travis-ci.org/Sagar Chandra Das/ShortClipVideoTrimmerUI)
 [![Version](https://img.shields.io/cocoapods/v/ShortClipVideoTrimmerUI.svg?style=flat)](https://cocoapods.org/pods/ShortClipVideoTrimmerUI)
 [![License](https://img.shields.io/cocoapods/l/ShortClipVideoTrimmerUI.svg?style=flat)](https://cocoapods.org/pods/ShortClipVideoTrimmerUI)
 [![Platform](https://img.shields.io/cocoapods/p/ShortClipVideoTrimmerUI.svg?style=flat)](https://cocoapods.org/pods/ShortClipVideoTrimmerUI)
