@@ -19,7 +19,7 @@ public protocol ShortClipVideoTrimmerContentViewDelegate : AnyObject {
     func trimmingFinishTimeDidChange(trimmingFinishTime : CGFloat)
 }
 
-
+@IBDesignable
 public  class ShortClipVideoTrimmerContentView: UIView {
     
     private var loadingImage : UIImage?
