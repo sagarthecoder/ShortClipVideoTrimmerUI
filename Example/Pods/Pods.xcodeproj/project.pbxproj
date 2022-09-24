@@ -122,12 +122,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1B2E42F328DF7E9200A46454 /* ShortClipVideoTrimmerUI.Bundle */ = {
+		1B2E42F628DF8BD700A46454 /* Photos.bundle */ = {
 			isa = PBXGroup;
 			children = (
 				1B2E42F428DF7EDA00A46454 /* loader.jpeg */,
 			);
-			path = ShortClipVideoTrimmerUI.Bundle;
+			path = Photos.bundle;
 			sourceTree = "<group>";
 		};
 		1BBA6BEF28DE4BB700F693CD /* Sources */ = {
@@ -170,7 +170,7 @@
 		41B99514B2E1DFED21006929170A354D /* ShortClipVideoTrimmerUI */ = {
 			isa = PBXGroup;
 			children = (
-				1B2E42F328DF7E9200A46454 /* ShortClipVideoTrimmerUI.Bundle */,
+				1B2E42F628DF8BD700A46454 /* Photos.bundle */,
 				1BBA6BEF28DE4BB700F693CD /* Sources */,
 				C589941C02DEF2F69FE9E17C12352ED5 /* Pod */,
 				8E82EA92B8B7FBCCA43989DC506A4050 /* Support Files */,
