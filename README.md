@@ -6,67 +6,98 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo and run `pod install` from the Example directory first.
+
 ### Trimming
 
-![](https://media.giphy.com/media/s3byxJiY06oqz9ytG1/giphy.gif)
+![Trimming](https://media.giphy.com/media/s3byxJiY06oqz9ytG1/giphy.gif)
 
 ## Requirements
 
 - iOS 9.0+
-- Interoperability with Swift 5.0+
+- Swift 5.0+
 
 ## Installation
+
 ### CocoaPods
 
-ShortClipVideoTrimmerUI is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+ShortClipVideoTrimmerUI is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your `Podfile`:
 
 ```ruby
 pod 'ShortClipVideoTrimmerUI'
 ```
+
+Then run:
+
+```bash
+pod install
+```
+
 ## Usage
 
-:warning: This library doesn't provide any Trimming Implementations. It has just provided the UI with video frames. You'll get trimming area (means trimming start time and trimming finish time) and then you can do anything with these informations.
+> ⚠️ **Note**  
+> This library **only provides the UI** for video trimming with frames.  
+> It does **not** perform the actual trimming.  
+> You will receive the trimming area's start and end times, and can handle trimming based on that.
 
-### Trimming
+### Trimming Setup
 
-Create an instance  (in interface builder or through code) of the `ShortClipVideoTrimmerContentView` and add it to your view hierarchy.
+Create an instance of `ShortClipVideoTrimmerContentView` (via Interface Builder or code) and add it to your view hierarchy:
+
+```swift
+shortClipTrimmerContentView.delegate = self
+shortClipTrimmerContentView.startOperation(
+    asset: asset,
+    maxTrimmingDuration: maxTrimmingDuration,
+    numberOfFramesPerCycle: numberOfFramesPerCycle
+)
 ```
-    shortClipTrimmerContentView.delegate = self // shortClipTrimmerContentView is an instance of ShortClipVideoTrimmerContentView
-    shortClipTrimmerContentView.startOperation(asset: asset, maxTrimmingDuration: maxTrimmingDuration, numberOfFramesPerCycle: numberOfFramesPerCycle)
-```
-Here `asset` is type of AVAsset. You have to specify how much maximum trimming duration (which is `maxTrimmingDuration`) you need and how many frames should be shown per cycle (which is `numberOfFramesPerCycle`).
-Then create a AVPlayer or something releated to AVPlayer. provide a timer which transferes current time of running Video. For example
-```
+
+- `asset` is an `AVAsset` object.
+- `maxTrimmingDuration` defines the maximum trimming length.
+- `numberOfFramesPerCycle` controls how many frames are shown in one cycle.
+
+Sync the trimmer’s position bar with video playback:
+
+```swift
 // videoPlayer is an instance of AVPlayer
-videoPlayer.addPeriodicTimeObserver(forInterval: CMTime(seconds: 0.01, preferredTimescale: 600), queue: .main) {  _ in
-    
+videoPlayer.addPeriodicTimeObserver(
+    forInterval: CMTime(seconds: 0.01, preferredTimescale: 600),
+    queue: .main
+) { _ in
     shortClipTrimmerContentView.updatePositionBarConstraint(cmTime: videoPlayer.currentTime())
 }
 ```
-you can also customize the `ShortClipVideoTrimmerContentView` by changing it's color and width's of subcomponents.
 
-```
-shortClipTrimmerContentView.updateHandlerWidth(width : 10.0)
-shortClipTrimmerContentView.updateKnobWidth(width : 3.0)
-shortClipTrimmerContentView.updatePositionBarWidth(width : 4.0)
-shortClipTrimmerContentView.updateTrimmingAreaBorderWidth(width : 2.0)
-shortClipTrimmerContentView.handlerColor(color : UIColor.blue)
-shortClipTrimmerContentView.updateTrimmingAreaBorderColor(color : UIColor.blue)
-shortClipTrimmerContentView.updateKnobColor(color : UIColor.white)
-shortClipTrimmerContentView.updatePositionBarColor(color : UIColor.white)
-shortClipTrimmerContentView.updateTrimmingOutsideBackgroundColor(color : UIColor.white)
-shortClipTrimmerContentView.updateTrimmingOutsideMaskAlpha(alpha : 0.5)   
-    
+### Customization
+
+You can customize the appearance of `ShortClipVideoTrimmerContentView`:
+
+```swift
+shortClipTrimmerContentView.updateHandlerWidth(width: 10.0)
+shortClipTrimmerContentView.updateKnobWidth(width: 3.0)
+shortClipTrimmerContentView.updatePositionBarWidth(width: 4.0)
+shortClipTrimmerContentView.updateTrimmingAreaBorderWidth(width: 2.0)
+
+shortClipTrimmerContentView.handlerColor(color: .blue)
+shortClipTrimmerContentView.updateTrimmingAreaBorderColor(color: .blue)
+shortClipTrimmerContentView.updateKnobColor(color: .white)
+shortClipTrimmerContentView.updatePositionBarColor(color: .white)
+shortClipTrimmerContentView.updateTrimmingOutsideBackgroundColor(color: .white)
+shortClipTrimmerContentView.updateTrimmingOutsideMaskAlpha(alpha: 0.5)
 ```
 
-By conforming `ShortClipVideoTrimmerContentViewDelegate` you'll get the information about when trimming start and end position is changed. For better understanding please see the example project.
+### Delegate
+
+By conforming to the `ShortClipVideoTrimmerContentViewDelegate`, you can receive updates when the trimming start or end positions change.
+
+For more information, check the example project.
 
 ## Author
 
-Sagar Chandra Das, sagarthecoder@gmail.com
+**Sagar Chandra Das**  
+Email: [sagarthecoder@gmail.com](mailto:sagarthecoder@gmail.com)
 
 ## License
 
-ShortClipVideoTrimmerUI is available under the MIT license. See the LICENSE file for more info.
+ShortClipVideoTrimmerUI is available under the [MIT License](LICENSE).
